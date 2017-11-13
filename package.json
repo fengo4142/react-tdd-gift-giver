@@ -5,18 +5,27 @@
   "dependencies": {
     "react": "^16.1.0",
     "react-bootstrap": "^0.31.5",
-    "react-scripts": "1.0.17"
   },
   "devDependencies": {
+    "babel-eslint": "^8.0.2",
+    "babel-preset-flow": "^6.23.0",
     "enzyme": "^3.1.1",
+    "enzyme-adapter-react-16": "^1.0.4",
+    "flow-bin": "^0.42.0",
     "jest-cli": "20.0.4",
-    "react-test-renderer": "^16.1.0",
-    "react-dom": "^16.1.0"
+    "prettier-eslint": "^8.2.1",
+    "react-dom": "^16.1.0",
+    "react-scripts": "1.0.17",
+    "react-test-renderer": "^16.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "flow start": "flow start",
+    "flow stop": "flow stop",
+    "flow status": "flow status",
+    "flow coverage": "flow coverage"
   }
 }
