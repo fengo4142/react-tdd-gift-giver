@@ -27,5 +27,12 @@
     "flow stop": "flow stop",
     "flow status": "flow status",
     "flow coverage": "flow coverage"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/index.js",
+      "!src/tempPolyfills.js"
+    ]
   }
 }
